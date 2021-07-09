@@ -35,6 +35,41 @@ function renderInstallationSection(installation) {
   return "No Installation process";
 }
 
+function renderUsageSection(usage) {
+  if (usage) {
+    return `${usage}`;
+  }
+  return "Visit application to understand usage.";
+}
+
+function renderContributionSection(contribution) {
+  if (contribution) {
+    return `${contribution}`;
+  }
+  return "No need of any contributions.";
+}
+
+function renderTestSection(test) {
+  if (test) {
+    return `${test}`;
+  }
+  return "No tests were used for this project.";
+}
+
+function renderGithubSection(github) {
+  if (github) {
+    return `My GitHub username is ${github}, this is where you can check out my code.`;
+  }
+  return "";
+}
+
+function renderEmailSection(email) {
+  if (email) {
+    return `If you have any questions, the best way to reach me is through my email ${email}.`;
+  }
+  return "";
+}
+
 
 
 function generateMarkdown(data) {
@@ -61,7 +96,11 @@ ${renderInstallationSection(data.installation)}
 
 ## Usage
 
+${renderUsageSection(data.usage)}
+
 ## Contribution
+
+${renderContributionSection(data.contribution)}
 
 ## License
 
@@ -69,12 +108,15 @@ ${renderLicenseSection(data.license)}
 
 ## Tests
 
+${renderTestSection(data.test)}
+
 ## Questions
+
+${renderGithubSection(data.github)}
+${renderEmailSection(data.email)}
+
 
 `;
 }
-
-
-
 
 module.exports = generateMarkdown;
