@@ -47,7 +47,7 @@ const questions = [
   {
     type: "input",
     name: "test",
-    message: "What is the title of the project?",
+    message: "Go the extra mile and write tests for your application. Then provide examples on how to run them here.",
   },
   {
     type: "list",
@@ -62,12 +62,12 @@ const questions = [
   {
     type: "input",
     name: "github",
-    message: "What is the title of the project?",
+    message: "What is your GitHub username, so people can find you?",
   },
   {
     type: "input",
     name: "email",
-    message: "What is the title of the project?",
+    message: "What is your email, so people can reach you?",
   },
 ];
 

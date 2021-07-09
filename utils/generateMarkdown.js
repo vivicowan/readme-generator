@@ -53,6 +53,7 @@ ${renderDescriptionSection(data.description1, data.description2, data.descriptio
  - [Contribution](#contribution)
  - [License](#license)
  - [Tests](#tests)
+ - [Questions](#questions)
 
 ## Installation
 
@@ -67,6 +68,8 @@ ${renderInstallationSection(data.installation)}
 ${renderLicenseSection(data.license)}
 
 ## Tests
+
+## Questions
 
 `;
 }
