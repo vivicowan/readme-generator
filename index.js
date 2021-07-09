@@ -12,22 +12,22 @@ const questions = [
   {
     type: "input",
     name: "description1",
-    message: "What was your motivation for the project?",
+    message: "What was your motivation for the project? Please write in complete sentences.",
   },
   {
     type: "input",
     name: "description2",
-    message: "Why did you build this project?",
+    message: "Why did you build this project? Please write in complete sentences.",
   },
   {
     type: "input",
     name: "description3",
-    message: "What problem does the project solve",
+    message: "What problem does the project solve? Please write in complete sentences.",
   },
   {
     type: "input",
     name: "description4",
-    message: "What did you learn?",
+    message: "What did you learn? Please write in complete sentences.",
   },
   {
     type: "input",

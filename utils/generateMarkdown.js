@@ -23,7 +23,7 @@ function renderLicenseSection(license) {
 
 function renderDescriptionSection(description1, description2, description3, description4) {
   if (description1, description2, description3, description4) {
-    return `${description1}. ${description2}. ${description3}. ${description4}.`;
+    return `${description1} ${description2} ${description3} ${description4}`;
   }
   return "";
 }
@@ -73,9 +73,6 @@ ${renderLicenseSection(data.license)}
 
 `;
 }
-
-
-// Go the extra mile and write tests for your application. Then provide examples on how to run them here.
 
 
 
