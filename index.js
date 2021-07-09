@@ -11,13 +11,28 @@ const questions = [
   },
   {
     type: "input",
-    name: "description",
-    message: "What is the title of the project?",
+    name: "description1",
+    message: "What was your motivation for the project?",
+  },
+  {
+    type: "input",
+    name: "description2",
+    message: "Why did you build this project?",
+  },
+  {
+    type: "input",
+    name: "description3",
+    message: "What problem does the project solve",
+  },
+  {
+    type: "input",
+    name: "description4",
+    message: "What did you learn?",
   },
   {
     type: "input",
     name: "installation",
-    message: "What is the title of the project?",
+    message: "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
   },
   {
     type: "input",
