@@ -7,7 +7,32 @@ const questions = [
   {
     type: "input",
     name: "title",
-    message: "What is the app title?",
+    message: "What is the title of the project?",
+  },
+  {
+    type: "input",
+    name: "description",
+    message: "What is the title of the project?",
+  },
+  {
+    type: "input",
+    name: "installation",
+    message: "What is the title of the project?",
+  },
+  {
+    type: "input",
+    name: "usage",
+    message: "What is the title of the project?",
+  },
+  {
+    type: "input",
+    name: "contributions",
+    message: "What is the title of the project?",
+  },
+  {
+    type: "input",
+    name: "test",
+    message: "What is the title of the project?",
   },
   {
     type: "list",
@@ -17,11 +42,17 @@ const questions = [
       "MIT",
       "ISC",
       "GPL v3",
-      {
-        name: "No License",
-        value: "",
-      },
     ],
+  },
+  {
+    type: "input",
+    name: "github",
+    message: "What is the title of the project?",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "What is the title of the project?",
   },
 ];
 
