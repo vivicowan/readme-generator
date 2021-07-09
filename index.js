@@ -37,12 +37,12 @@ const questions = [
   {
     type: "input",
     name: "usage",
-    message: "What is the title of the project?",
+    message: "Provide instructions and examples for use.",
   },
   {
     type: "input",
     name: "contributions",
-    message: "What is the title of the project?",
+    message: "What are some of the ways other developers can contribute to the project? You can include guidelines for how to do so.",
   },
   {
     type: "input",
