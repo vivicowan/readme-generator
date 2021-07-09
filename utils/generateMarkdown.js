@@ -46,7 +46,7 @@ function renderContributionSection(contribution) {
   if (contribution) {
     return `${contribution}`;
   }
-  return "No need of any contributions.";
+  return "No need for any contributions.";
 }
 
 function renderTestSection(test) {
@@ -114,8 +114,6 @@ ${renderTestSection(data.test)}
 
 ${renderGithubSection(data.github)}
 ${renderEmailSection(data.email)}
-
-
 `;
 }
 
