@@ -42,9 +42,9 @@ function renderUsageSection(usage) {
   return "Visit application to understand usage.";
 }
 
-function renderContributionSection(contribution) {
-  if (contribution) {
-    return `${contribution}`;
+function renderContributionSection(contributions) {
+  if (contributions) {
+    return `${contributions}`;
   }
   return "No need for any contributions.";
 }
@@ -100,7 +100,7 @@ ${renderUsageSection(data.usage)}
 
 ## Contribution
 
-${renderContributionSection(data.contribution)}
+${renderContributionSection(data.contributions)}
 
 ## License
 
