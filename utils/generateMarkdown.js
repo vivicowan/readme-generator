@@ -1,3 +1,4 @@
+// functione for everything the user will be asked.
 function renderLicenseBadge(license) {
   switch (license) {
     case "MIT":
@@ -71,7 +72,7 @@ function renderEmailSection(email) {
 }
 
 
-
+// template literal for the information we want on README.md.
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -112,8 +113,8 @@ ${renderTestSection(data.test)}
 
 ## Questions
 
-${renderGithubSection(data.github)}
-${renderEmailSection(data.email)}
+ - ${renderGithubSection(data.github)}
+ - ${renderEmailSection(data.email)}
 `;
 }
 

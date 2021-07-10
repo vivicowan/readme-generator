@@ -1,9 +1,10 @@
+// require is the same as linking 
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 const questions = [
-  // ask user for title and license
+  // ask user for descriptive information about their project.
   {
     type: "input",
     name: "title",
@@ -71,6 +72,7 @@ const questions = [
   },
 ];
 
+// function takes in file name and data and tests for an error.
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) => {
     if (err) {
@@ -82,6 +84,7 @@ function writeToFile(fileName, data) {
   });
 }
 
+// function init is what passes questions to user and adds input answers into README.md.
 function init() {
   inquirer.prompt(questions).then((answers) => {
     const md = generateMarkdown(answers);
